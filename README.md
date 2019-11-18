@@ -5,7 +5,7 @@ were able have our application re-render through the rather confusing
 `connect()` method and __Provider__ component. Whenever something in
 JavaScript is confusing, it is generally helpful to place some debuggers in the
 code and poke around. In this lesson we will guide you through that, and giving
-you a for your eyes only peak at the sordid underworld of `connect()` and
+you a "for-your-eyes-only" peek at the sordid underworld of `connect()` and
 `mapStateToProps()`.
 
 ## Get situated with the codebase changes
@@ -23,7 +23,7 @@ in the reducer, as we already have __Redux Devtools__ setup.
 The next set of changes comes in the `./src/App.js` where you can see that we
 now have added a new button labeled click to change users. It does the same
 thing as our other button, but this time calls a callback which dispatches an
-action to change the part of the state related to users, instead of that related
+action to change the part of the state related to users, instead of the part related
 to items.
 
 At the bottom of the file, inside the `mapStateToProps()` function you can see
